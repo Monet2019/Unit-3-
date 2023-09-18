@@ -1,0 +1,133 @@
+/* Global Styles */
+body {
+    background-image: url('https://images.unsplash.com/photo-1523741543316-beb7fc7023d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHdhdGVybWVsb24lMjBmYXJtfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    background-color: black;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+
+.nav-link {
+    color: #e31212;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+.nav-link:hover {
+    background-color: #222;
+}
+
+.navbar-brand {
+    margin-right: 20px;
+}
+
+/* Alerts */
+.alert {
+    font-size: 1.2em;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+/* Containers */
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Cart Link */
+.nav-link[href='/cart'] {
+    background-color: gray;
+    font: bolder;
+    font-family: cursive;
+    
+     
+}
+
+/* Melons Link */
+.nav-link[href='/melons'] {
+    background-color: gray;
+    margin-right: 20px;
+    font: bolder;
+    font-family: cursive;
+    
+}
+
+/* Login and Logout Links */
+.nav-link[href='/login'],
+.nav-link[href='/logout'] {
+    background-color: gray;
+    margin-right: 30px;
+    font: bolder;
+    font-family: cursive;
+}
+
+/* Card Styles */
+.card-text-center {
+    width: 25%;
+}
+
+/* Melon Images */
+.melon-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid black;
+    box-sizing: border-box;
+    
+}
+
+/* Melon List Styles */
+#melon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: x-large;
+    font-style: bolder;
+    color: rgb(222, 27, 47);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#melon-list a {
+    color: rgb(222, 27, 47);
+    text-decoration: none;
+    font-family: cursive;
+    font-size: x-large;
+    font-style: bolder;
+    justify-content: space-between;
+}
+
+/* List Styles */
+li {
+    list-style: none;
+}
+
+/* Link Styles */
+a:link {
+    color: black;
+}
+h2{
+    font-family: cursive ;
+   font-size: xxx-large;
+}
